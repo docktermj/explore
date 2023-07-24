@@ -1,0 +1,269 @@
+{
+    "definitions": {
+        "apiVersion": {
+            "type": "string"
+        },
+        "dataSource": {
+            "properties": {
+                "ambiguousMatchEntityCount": {
+                    "type": "int32"
+                },
+                "ambiguaousMatchRecordCount": {
+                    "type": "int32"
+                },
+                "ambiguaousMatchRelationCount": {
+                    "type": "int32"
+                },
+                "ambiguaousMatchSample": {
+                    "elements": {}
+                },
+                "compression": {
+                    "type": "string"
+                },
+                "crossMatches": {
+                    "ref": "crossMatches"
+                },
+                "dataSourceName": {
+                    "type": "string"
+                },
+                "disclosedRelationEntityCount": {
+                    "type": "int32"
+                },
+                "disclosedRelationRecordCount": {
+                    "type": "int32"
+                },
+                "disclosedRelationRelationCount": {
+                    "type": "int32"
+                },
+                "discloseRelationSample": {
+                    "elements": {
+                        "type": "string"
+                    }
+                },
+                "duplicateEntityCount": {
+                    "type": "int32"
+                },
+                "duplateRecordCount": {
+                    "type": "int32"
+                },
+                "duplicateSample": {
+                    "elements": {
+                        "type": "int32"
+                    }
+                },
+                "entityCount": {
+                    "type": "int32"
+                },
+                "possibleMatchEntityCount": {
+                    "type": "int32"
+                },
+                "possibleMatchRecordCount": {
+                    "type": "int32"
+                },
+                "possibleMatchRelationCount": {
+                    "type": "int32"
+                },
+                "possibleMatchSample": {
+                    "elements": {
+                        "type": "string"
+                    }
+                },
+                "possiblyRelatedEntityCount": {
+                    "type": "int32"
+                },
+                "possiblyRelatedRecordCount": {
+                    "type": "int32"
+                },
+                "possiblyRelatedRelationCount": {
+                    "type": "int32"
+                },
+                "possiblyRelatedSample": {
+                    "elements": {
+                        "type": "string"
+                    }
+                },
+                "recordCount": {
+                    "type": "int32"
+                },
+                "singleCount": {
+                    "type": "int32"
+                },
+                "singleSample": {
+                    "elements": {
+                        "type": "int32"
+                    }
+                }
+            }
+        },
+        "dataSources": {
+            "elements": {
+                "ref": "dataSource"
+            }
+        },
+        "crossMatch": {
+            "properties": {
+                "ambiguousMatchEntityCount": {
+                    "type": "int32"
+                },
+                "ambiguaousMatchRecordCount": {
+                    "type": "int32"
+                },
+                "ambiguaousMatchRelationCount": {
+                    "type": "int32"
+                },
+                "ambiguaousMatchSample": {
+                    "elements": {}
+                },
+                "dataSourceName": {
+                    "type": "string"
+                },
+                "disclosedRelationEntityCount": {
+                    "type": "int32"
+                },
+                "disclosedRelationRecordCount": {
+                    "type": "int32"
+                },
+                "disclosedRelationRelationCount": {
+                    "type": "int32"
+                },
+                "discloseRelationSample": {
+                    "elements": {
+                        "type": "string"
+                    }
+                },
+                "possibleMatchEntityCount": {
+                    "type": "int32"
+                },
+                "possibleMatchRecordCount": {
+                    "type": "int32"
+                },
+                "possibleMatchRelationCount": {
+                    "type": "int32"
+                },
+                "possibleMatchSample": {
+                    "elements": {
+                        "type": "string"
+                    }
+                },
+                "possiblyRelatedEntityCount": {
+                    "type": "int32"
+                },
+                "possiblyRelatedRecordCount": {
+                    "type": "int32"
+                },
+                "possiblyRelatedRelationCount": {
+                    "type": "int32"
+                },
+                "possiblyRelatedSample": {
+                    "elements": {
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        "crossMatches": {
+            "elements": {
+                "ref": "crossMatch"
+            }
+        },
+        "process": {
+            "properties": {
+                "endTime": {
+                    "type": "string"
+                },
+                "lastEntityID": {
+                    "type": "int32"
+                },
+                "queues": {
+                    "type": "string"
+                },
+                "runTime": {
+                    "type": "string"
+                },
+                "startTime": {
+                    "type": "string"
+                },
+                "status": {
+                    "type": "string"
+                }
+            }
+        },
+        "runDate": {
+            "type": "string"
+        },
+        "sample": {
+            "elements": {
+                "ref": "sampleElement"
+            }
+        },
+        "sampleElement": {
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "count": {
+                    "type": "int32"
+                }
+            }
+        },
+        "samples": {
+            "elements": {
+                "ref": "sample"
+            }
+        },
+        "source": {
+            "type": "string"
+        },
+        "tmpEsbStat": {
+            "properties": {
+                "count": {
+                    "type": "string"
+                },
+                "ID": {
+                    "type": "int32"
+                },
+                "samples": {
+                    "type": "int32"
+                }
+            }
+        },
+        "tmpEsbStats": {
+            "elements": {
+                "ref": "tmpEsbStat"
+            }
+        },
+        "totalAmbiguousMatchEntities": {
+            "type": "int32"
+        },
+        "totalAmbiguousMatchRelationships": {
+            "type": "int32"
+        },
+        "totalCompression": {
+            "type": "string"
+        },
+        "totalDisclosedRelationEntities": {
+            "type": "int32"
+        },
+        "totalDisclosedRelationRelationships": {
+            "type": "int32"
+        },
+        "totalEntityCount": {
+            "type": "int32"
+        },
+        "totalPossibleMatchEntities": {
+            "type": "int32"
+        },
+        "totalPossibleMatchRelationships": {
+            "type": "int32"
+        },
+        "totalPossiblyRelatedEntities": {
+            "type": "int32"
+        },
+        "totalPossiblyRelatedRelationships": {
+            "type": "int32"
+        },
+        "totalRecordCount": {
+            "type": "int32"
+        }
+    }
+}

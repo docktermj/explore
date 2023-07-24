@@ -1,0 +1,1006 @@
+{
+    "definitions": {
+        "API_VERSION": {
+            "type": "string"
+        },
+        "DATA_SOURCES": {
+            "properties": {
+                "CUSTOMERS": {
+                    "properties": {
+                        "AMBIGUOUS_MATCH_ENTITY_COUNT": {
+                            "type": "uint8"
+                        },
+                        "AMBIGUOUS_MATCH_RECORD_COUNT": {
+                            "type": "uint8"
+                        },
+                        "AMBIGUOUS_MATCH_RELATION_COUNT": {
+                            "type": "uint8"
+                        },
+                        "AMBIGUOUS_MATCH_SAMPLE": {
+                            "elements": {}
+                        },
+                        "COMPRESSION": {
+                            "type": "string"
+                        },
+                        "CROSS_MATCHES": {
+                            "properties": {
+                                "REFERENCE": {
+                                    "properties": {
+                                        "AMBIGUOUS_MATCH_ENTITY_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "AMBIGUOUS_MATCH_RECORD_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "AMBIGUOUS_MATCH_RELATION_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "AMBIGUOUS_MATCH_SAMPLE": {
+                                            "elements": {}
+                                        },
+                                        "DISCLOSED_RELATION_ENTITY_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "DISCLOSED_RELATION_RECORD_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "DISCLOSED_RELATION_RELATION_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "DISCLOSED_RELATION_SAMPLE": {
+                                            "elements": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "MATCH_ENTITY_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "MATCH_RECORD_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "MATCH_SAMPLE": {
+                                            "elements": {
+                                                "type": "uint8"
+                                            }
+                                        },
+                                        "POSSIBLE_MATCH_ENTITY_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "POSSIBLE_MATCH_RECORD_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "POSSIBLE_MATCH_RELATION_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "POSSIBLE_MATCH_SAMPLE": {
+                                            "elements": {}
+                                        },
+                                        "POSSIBLY_RELATED_ENTITY_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "POSSIBLY_RELATED_RECORD_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "POSSIBLY_RELATED_RELATION_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "POSSIBLY_RELATED_SAMPLE": {
+                                            "elements": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                },
+                                "WATCHLIST": {
+                                    "properties": {
+                                        "AMBIGUOUS_MATCH_ENTITY_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "AMBIGUOUS_MATCH_RECORD_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "AMBIGUOUS_MATCH_RELATION_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "AMBIGUOUS_MATCH_SAMPLE": {
+                                            "elements": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "DISCLOSED_RELATION_ENTITY_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "DISCLOSED_RELATION_RECORD_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "DISCLOSED_RELATION_RELATION_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "DISCLOSED_RELATION_SAMPLE": {
+                                            "elements": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "MATCH_ENTITY_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "MATCH_RECORD_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "MATCH_SAMPLE": {
+                                            "elements": {
+                                                "type": "uint8"
+                                            }
+                                        },
+                                        "POSSIBLE_MATCH_ENTITY_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "POSSIBLE_MATCH_RECORD_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "POSSIBLE_MATCH_RELATION_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "POSSIBLE_MATCH_SAMPLE": {
+                                            "elements": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "POSSIBLY_RELATED_ENTITY_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "POSSIBLY_RELATED_RECORD_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "POSSIBLY_RELATED_RELATION_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "POSSIBLY_RELATED_SAMPLE": {
+                                            "elements": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "DISCLOSED_RELATION_ENTITY_COUNT": {
+                            "type": "uint8"
+                        },
+                        "DISCLOSED_RELATION_RECORD_COUNT": {
+                            "type": "uint8"
+                        },
+                        "DISCLOSED_RELATION_RELATION_COUNT": {
+                            "type": "uint8"
+                        },
+                        "DISCLOSED_RELATION_SAMPLE": {
+                            "elements": {
+                                "type": "string"
+                            }
+                        },
+                        "DUPLICATE_ENTITY_COUNT": {
+                            "type": "uint8"
+                        },
+                        "DUPLICATE_RECORD_COUNT": {
+                            "type": "uint8"
+                        },
+                        "DUPLICATE_SAMPLE": {
+                            "elements": {
+                                "type": "uint8"
+                            }
+                        },
+                        "ENTITY_COUNT": {
+                            "type": "uint8"
+                        },
+                        "POSSIBLE_MATCH_ENTITY_COUNT": {
+                            "type": "uint8"
+                        },
+                        "POSSIBLE_MATCH_RECORD_COUNT": {
+                            "type": "uint8"
+                        },
+                        "POSSIBLE_MATCH_RELATION_COUNT": {
+                            "type": "uint8"
+                        },
+                        "POSSIBLE_MATCH_SAMPLE": {
+                            "elements": {
+                                "type": "string"
+                            }
+                        },
+                        "POSSIBLY_RELATED_ENTITY_COUNT": {
+                            "type": "uint8"
+                        },
+                        "POSSIBLY_RELATED_RECORD_COUNT": {
+                            "type": "uint8"
+                        },
+                        "POSSIBLY_RELATED_RELATION_COUNT": {
+                            "type": "uint8"
+                        },
+                        "POSSIBLY_RELATED_SAMPLE": {
+                            "elements": {
+                                "type": "string"
+                            }
+                        },
+                        "RECORD_COUNT": {
+                            "type": "uint8"
+                        },
+                        "SINGLE_COUNT": {
+                            "type": "uint8"
+                        },
+                        "SINGLE_SAMPLE": {
+                            "elements": {
+                                "type": "uint8"
+                            }
+                        }
+                    }
+                },
+                "REFERENCE": {
+                    "properties": {
+                        "AMBIGUOUS_MATCH_ENTITY_COUNT": {
+                            "type": "uint8"
+                        },
+                        "AMBIGUOUS_MATCH_RECORD_COUNT": {
+                            "type": "uint8"
+                        },
+                        "AMBIGUOUS_MATCH_RELATION_COUNT": {
+                            "type": "uint8"
+                        },
+                        "AMBIGUOUS_MATCH_SAMPLE": {
+                            "elements": {}
+                        },
+                        "COMPRESSION": {
+                            "type": "string"
+                        },
+                        "CROSS_MATCHES": {
+                            "properties": {
+                                "CUSTOMERS": {
+                                    "properties": {
+                                        "AMBIGUOUS_MATCH_ENTITY_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "AMBIGUOUS_MATCH_RECORD_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "AMBIGUOUS_MATCH_RELATION_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "AMBIGUOUS_MATCH_SAMPLE": {
+                                            "elements": {}
+                                        },
+                                        "DISCLOSED_RELATION_ENTITY_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "DISCLOSED_RELATION_RECORD_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "DISCLOSED_RELATION_RELATION_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "DISCLOSED_RELATION_SAMPLE": {
+                                            "elements": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "MATCH_ENTITY_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "MATCH_RECORD_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "MATCH_SAMPLE": {
+                                            "elements": {
+                                                "type": "uint8"
+                                            }
+                                        },
+                                        "POSSIBLE_MATCH_ENTITY_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "POSSIBLE_MATCH_RECORD_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "POSSIBLE_MATCH_RELATION_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "POSSIBLE_MATCH_SAMPLE": {
+                                            "elements": {}
+                                        },
+                                        "POSSIBLY_RELATED_ENTITY_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "POSSIBLY_RELATED_RECORD_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "POSSIBLY_RELATED_RELATION_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "POSSIBLY_RELATED_SAMPLE": {
+                                            "elements": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                },
+                                "WATCHLIST": {
+                                    "properties": {
+                                        "AMBIGUOUS_MATCH_ENTITY_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "AMBIGUOUS_MATCH_RECORD_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "AMBIGUOUS_MATCH_RELATION_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "AMBIGUOUS_MATCH_SAMPLE": {
+                                            "elements": {}
+                                        },
+                                        "DISCLOSED_RELATION_ENTITY_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "DISCLOSED_RELATION_RECORD_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "DISCLOSED_RELATION_RELATION_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "DISCLOSED_RELATION_SAMPLE": {
+                                            "elements": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "MATCH_ENTITY_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "MATCH_RECORD_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "MATCH_SAMPLE": {
+                                            "elements": {
+                                                "type": "uint8"
+                                            }
+                                        },
+                                        "POSSIBLE_MATCH_ENTITY_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "POSSIBLE_MATCH_RECORD_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "POSSIBLE_MATCH_RELATION_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "POSSIBLE_MATCH_SAMPLE": {
+                                            "elements": {}
+                                        },
+                                        "POSSIBLY_RELATED_ENTITY_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "POSSIBLY_RELATED_RECORD_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "POSSIBLY_RELATED_RELATION_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "POSSIBLY_RELATED_SAMPLE": {
+                                            "elements": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "DISCLOSED_RELATION_ENTITY_COUNT": {
+                            "type": "uint8"
+                        },
+                        "DISCLOSED_RELATION_RECORD_COUNT": {
+                            "type": "uint8"
+                        },
+                        "DISCLOSED_RELATION_RELATION_COUNT": {
+                            "type": "uint8"
+                        },
+                        "DISCLOSED_RELATION_SAMPLE": {
+                            "elements": {
+                                "type": "string"
+                            }
+                        },
+                        "DUPLICATE_ENTITY_COUNT": {
+                            "type": "uint8"
+                        },
+                        "DUPLICATE_RECORD_COUNT": {
+                            "type": "uint8"
+                        },
+                        "DUPLICATE_SAMPLE": {
+                            "elements": {
+                                "type": "uint8"
+                            }
+                        },
+                        "ENTITY_COUNT": {
+                            "type": "uint8"
+                        },
+                        "POSSIBLE_MATCH_ENTITY_COUNT": {
+                            "type": "uint8"
+                        },
+                        "POSSIBLE_MATCH_RECORD_COUNT": {
+                            "type": "uint8"
+                        },
+                        "POSSIBLE_MATCH_RELATION_COUNT": {
+                            "type": "uint8"
+                        },
+                        "POSSIBLE_MATCH_SAMPLE": {
+                            "elements": {
+                                "type": "string"
+                            }
+                        },
+                        "POSSIBLY_RELATED_ENTITY_COUNT": {
+                            "type": "uint8"
+                        },
+                        "POSSIBLY_RELATED_RECORD_COUNT": {
+                            "type": "uint8"
+                        },
+                        "POSSIBLY_RELATED_RELATION_COUNT": {
+                            "type": "uint8"
+                        },
+                        "POSSIBLY_RELATED_SAMPLE": {
+                            "elements": {
+                                "type": "string"
+                            }
+                        },
+                        "RECORD_COUNT": {
+                            "type": "uint8"
+                        },
+                        "SINGLE_COUNT": {
+                            "type": "uint8"
+                        },
+                        "SINGLE_SAMPLE": {
+                            "elements": {
+                                "type": "uint8"
+                            }
+                        }
+                    }
+                },
+                "WATCHLIST": {
+                    "properties": {
+                        "AMBIGUOUS_MATCH_ENTITY_COUNT": {
+                            "type": "uint8"
+                        },
+                        "AMBIGUOUS_MATCH_RECORD_COUNT": {
+                            "type": "uint8"
+                        },
+                        "AMBIGUOUS_MATCH_RELATION_COUNT": {
+                            "type": "uint8"
+                        },
+                        "AMBIGUOUS_MATCH_SAMPLE": {
+                            "elements": {}
+                        },
+                        "COMPRESSION": {
+                            "type": "string"
+                        },
+                        "CROSS_MATCHES": {
+                            "properties": {
+                                "CUSTOMERS": {
+                                    "properties": {
+                                        "AMBIGUOUS_MATCH_ENTITY_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "AMBIGUOUS_MATCH_RECORD_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "AMBIGUOUS_MATCH_RELATION_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "AMBIGUOUS_MATCH_SAMPLE": {
+                                            "elements": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "DISCLOSED_RELATION_ENTITY_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "DISCLOSED_RELATION_RECORD_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "DISCLOSED_RELATION_RELATION_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "DISCLOSED_RELATION_SAMPLE": {
+                                            "elements": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "MATCH_ENTITY_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "MATCH_RECORD_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "MATCH_SAMPLE": {
+                                            "elements": {
+                                                "type": "uint8"
+                                            }
+                                        },
+                                        "POSSIBLE_MATCH_ENTITY_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "POSSIBLE_MATCH_RECORD_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "POSSIBLE_MATCH_RELATION_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "POSSIBLE_MATCH_SAMPLE": {
+                                            "elements": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "POSSIBLY_RELATED_ENTITY_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "POSSIBLY_RELATED_RECORD_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "POSSIBLY_RELATED_RELATION_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "POSSIBLY_RELATED_SAMPLE": {
+                                            "elements": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                },
+                                "REFERENCE": {
+                                    "properties": {
+                                        "AMBIGUOUS_MATCH_ENTITY_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "AMBIGUOUS_MATCH_RECORD_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "AMBIGUOUS_MATCH_RELATION_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "AMBIGUOUS_MATCH_SAMPLE": {
+                                            "elements": {}
+                                        },
+                                        "DISCLOSED_RELATION_ENTITY_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "DISCLOSED_RELATION_RECORD_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "DISCLOSED_RELATION_RELATION_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "DISCLOSED_RELATION_SAMPLE": {
+                                            "elements": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "MATCH_ENTITY_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "MATCH_RECORD_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "MATCH_SAMPLE": {
+                                            "elements": {
+                                                "type": "uint8"
+                                            }
+                                        },
+                                        "POSSIBLE_MATCH_ENTITY_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "POSSIBLE_MATCH_RECORD_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "POSSIBLE_MATCH_RELATION_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "POSSIBLE_MATCH_SAMPLE": {
+                                            "elements": {}
+                                        },
+                                        "POSSIBLY_RELATED_ENTITY_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "POSSIBLY_RELATED_RECORD_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "POSSIBLY_RELATED_RELATION_COUNT": {
+                                            "type": "uint8"
+                                        },
+                                        "POSSIBLY_RELATED_SAMPLE": {
+                                            "elements": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "DISCLOSED_RELATION_ENTITY_COUNT": {
+                            "type": "uint8"
+                        },
+                        "DISCLOSED_RELATION_RECORD_COUNT": {
+                            "type": "uint8"
+                        },
+                        "DISCLOSED_RELATION_RELATION_COUNT": {
+                            "type": "uint8"
+                        },
+                        "DISCLOSED_RELATION_SAMPLE": {
+                            "elements": {}
+                        },
+                        "DUPLICATE_ENTITY_COUNT": {
+                            "type": "uint8"
+                        },
+                        "DUPLICATE_RECORD_COUNT": {
+                            "type": "uint8"
+                        },
+                        "DUPLICATE_SAMPLE": {
+                            "elements": {
+                                "type": "uint8"
+                            }
+                        },
+                        "ENTITY_COUNT": {
+                            "type": "uint8"
+                        },
+                        "POSSIBLE_MATCH_ENTITY_COUNT": {
+                            "type": "uint8"
+                        },
+                        "POSSIBLE_MATCH_RECORD_COUNT": {
+                            "type": "uint8"
+                        },
+                        "POSSIBLE_MATCH_RELATION_COUNT": {
+                            "type": "uint8"
+                        },
+                        "POSSIBLE_MATCH_SAMPLE": {
+                            "elements": {
+                                "type": "string"
+                            }
+                        },
+                        "POSSIBLY_RELATED_ENTITY_COUNT": {
+                            "type": "uint8"
+                        },
+                        "POSSIBLY_RELATED_RECORD_COUNT": {
+                            "type": "uint8"
+                        },
+                        "POSSIBLY_RELATED_RELATION_COUNT": {
+                            "type": "uint8"
+                        },
+                        "POSSIBLY_RELATED_SAMPLE": {
+                            "elements": {
+                                "type": "string"
+                            }
+                        },
+                        "RECORD_COUNT": {
+                            "type": "uint8"
+                        },
+                        "SINGLE_COUNT": {
+                            "type": "uint8"
+                        },
+                        "SINGLE_SAMPLE": {
+                            "elements": {
+                                "type": "uint8"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "PROCESS": {
+            "properties": {
+                "END_TIME": {
+                    "type": "string"
+                },
+                "LAST_ENTITY_ID": {
+                    "type": "uint8"
+                },
+                "QUEUES": {
+                    "type": "string"
+                },
+                "RUN_TIME": {
+                    "type": "string"
+                },
+                "START_TIME": {
+                    "type": "string"
+                },
+                "STATUS": {
+                    "type": "string"
+                }
+            }
+        },
+        "RUN_DATE": {
+            "type": "string"
+        },
+        "SOURCE": {
+            "type": "string"
+        },
+        "TEMP_ESB_STATS": {
+            "properties": {
+                "1": {
+                    "properties": {
+                        "COUNT": {
+                            "type": "uint8"
+                        },
+                        "SAMPLE": {
+                            "elements": {
+                                "properties": {
+                                    "ENTITY_ID": {
+                                        "type": "uint8"
+                                    },
+                                    "ENTITY_SIZE": {
+                                        "type": "uint8"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "2": {
+                    "properties": {
+                        "COUNT": {
+                            "type": "uint8"
+                        },
+                        "SAMPLE": {
+                            "elements": {
+                                "properties": {
+                                    "ENTITY_ID": {
+                                        "type": "uint8"
+                                    },
+                                    "ENTITY_SIZE": {
+                                        "type": "uint8"
+                                    },
+                                    "NAME": {
+                                        "type": "uint8"
+                                    },
+                                    "RECORD_TYPE": {
+                                        "type": "uint8"
+                                    }
+                                },
+                                "optionalProperties": {
+                                    "ADDRESS": {
+                                        "type": "uint8"
+                                    },
+                                    "DOB": {
+                                        "type": "uint8"
+                                    },
+                                    "DRLIC": {
+                                        "type": "uint8"
+                                    },
+                                    "EMAIL": {
+                                        "type": "uint8"
+                                    },
+                                    "EMPLOYER": {
+                                        "type": "uint8"
+                                    },
+                                    "GENDER": {
+                                        "type": "uint8"
+                                    },
+                                    "PASSPORT": {
+                                        "type": "uint8"
+                                    },
+                                    "PHONE": {
+                                        "type": "uint8"
+                                    },
+                                    "REL_ANCHOR": {
+                                        "type": "uint8"
+                                    },
+                                    "REL_POINTER": {
+                                        "type": "uint8"
+                                    },
+                                    "SSN": {
+                                        "type": "uint8"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "3": {
+                    "properties": {
+                        "COUNT": {
+                            "type": "uint8"
+                        },
+                        "SAMPLE": {
+                            "elements": {
+                                "properties": {
+                                    "ENTITY_ID": {
+                                        "type": "uint8"
+                                    },
+                                    "ENTITY_SIZE": {
+                                        "type": "uint8"
+                                    },
+                                    "NAME": {
+                                        "type": "uint8"
+                                    },
+                                    "RECORD_TYPE": {
+                                        "type": "uint8"
+                                    }
+                                },
+                                "optionalProperties": {
+                                    "ADDRESS": {
+                                        "type": "uint8"
+                                    },
+                                    "DOB": {
+                                        "type": "uint8"
+                                    },
+                                    "EMAIL": {
+                                        "type": "uint8"
+                                    },
+                                    "EMPLOYER": {
+                                        "type": "uint8"
+                                    },
+                                    "GENDER": {
+                                        "type": "uint8"
+                                    },
+                                    "NATIONAL_ID": {
+                                        "type": "uint8"
+                                    },
+                                    "PASSPORT": {
+                                        "type": "uint8"
+                                    },
+                                    "PHONE": {
+                                        "type": "uint8"
+                                    },
+                                    "REL_POINTER": {
+                                        "type": "uint8"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "4": {
+                    "properties": {
+                        "COUNT": {
+                            "type": "uint8"
+                        },
+                        "SAMPLE": {
+                            "elements": {
+                                "properties": {
+                                    "ADDRESS": {
+                                        "type": "uint8"
+                                    },
+                                    "DOB": {
+                                        "type": "uint8"
+                                    },
+                                    "EMAIL": {
+                                        "type": "uint8"
+                                    },
+                                    "ENTITY_ID": {
+                                        "type": "uint8"
+                                    },
+                                    "ENTITY_SIZE": {
+                                        "type": "uint8"
+                                    },
+                                    "NAME": {
+                                        "type": "uint8"
+                                    },
+                                    "RECORD_TYPE": {
+                                        "type": "uint8"
+                                    }
+                                },
+                                "optionalProperties": {
+                                    "PHONE": {
+                                        "type": "uint8"
+                                    },
+                                    "SSN": {
+                                        "type": "uint8"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "5": {
+                    "properties": {
+                        "COUNT": {
+                            "type": "uint8"
+                        },
+                        "SAMPLE": {
+                            "elements": {
+                                "properties": {
+                                    "ADDRESS": {
+                                        "type": "uint8"
+                                    },
+                                    "DOB": {
+                                        "type": "uint8"
+                                    },
+                                    "EMAIL": {
+                                        "type": "uint8"
+                                    },
+                                    "ENTITY_ID": {
+                                        "type": "uint8"
+                                    },
+                                    "ENTITY_SIZE": {
+                                        "type": "uint8"
+                                    },
+                                    "NAME": {
+                                        "type": "uint8"
+                                    },
+                                    "RECORD_TYPE": {
+                                        "type": "uint8"
+                                    },
+                                    "SSN": {
+                                        "type": "uint8"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "6": {
+                    "properties": {
+                        "COUNT": {
+                            "type": "uint8"
+                        },
+                        "SAMPLE": {
+                            "elements": {
+                                "properties": {
+                                    "ADDRESS": {
+                                        "type": "uint8"
+                                    },
+                                    "DOB": {
+                                        "type": "uint8"
+                                    },
+                                    "DRLIC": {
+                                        "type": "uint8"
+                                    },
+                                    "ENTITY_ID": {
+                                        "type": "uint8"
+                                    },
+                                    "ENTITY_SIZE": {
+                                        "type": "uint8"
+                                    },
+                                    "NAME": {
+                                        "type": "uint8"
+                                    },
+                                    "PASSPORT": {
+                                        "type": "uint8"
+                                    },
+                                    "RECORD_TYPE": {
+                                        "type": "uint8"
+                                    },
+                                    "SSN": {
+                                        "type": "uint8"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "TOTAL_AMBIGUOUS_MATCH_ENTITIES": {
+            "type": "uint8"
+        },
+        "TOTAL_AMBIGUOUS_MATCH_RELATIONSHIPS": {
+            "type": "uint8"
+        },
+        "TOTAL_COMPRESSION": {
+            "type": "string"
+        },
+        "TOTAL_DISCLOSED_RELATION_ENTITIES": {
+            "type": "uint8"
+        },
+        "TOTAL_DISCLOSED_RELATION_RELATIONSHIPS": {
+            "type": "uint8"
+        },
+        "TOTAL_ENTITY_COUNT": {
+            "type": "uint8"
+        },
+        "TOTAL_POSSIBLE_MATCH_ENTITIES": {
+            "type": "uint8"
+        },
+        "TOTAL_POSSIBLE_MATCH_RELATIONSHIPS": {
+            "type": "uint8"
+        },
+        "TOTAL_POSSIBLY_RELATED_ENTITIES": {
+            "type": "uint8"
+        },
+        "TOTAL_POSSIBLY_RELATED_RELATIONSHIPS": {
+            "type": "uint8"
+        },
+        "TOTAL_RECORD_COUNT": {
+            "type": "uint8"
+        }
+    }
+}
